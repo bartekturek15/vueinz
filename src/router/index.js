@@ -10,7 +10,7 @@ import RegisterForm from '../views/RegisterFormView.vue';
 import DataBaseDnDSpell from '../views/DataBase/DataBaseDnDSpellView.vue';
 import DataBaseDnDMonster from '../views/DataBase/DataBaseDnDMonsterView.vue';
 import DataBaseDnDItem from '../views/DataBase/DataBaseDnDItemView.vue';
-import DataBaseDnDRaceView from '../views/dataBase/DataBaseDnDRaceViewView.vue';
+import DataBaseDnDRaceView from '../views/dataBase/DataBaseDnDRaceView.vue';
 import DataBaseDnDSubrace from '../views/dataBase/DataBaseDnDSubraceView.vue';
 import DataBaseDnDClass from '../views/dataBase/DataBaseDnDClassView.vue';
 import DataBaseDnDSubclass from '../views/dataBase/DataBaseDnDSubclassView.vue';
