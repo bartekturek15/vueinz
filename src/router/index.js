@@ -10,7 +10,7 @@ import RegisterForm from '../views/RegisterFormView.vue';
 import DataBaseDnDSpell from '../views/DataBase/DataBaseDnDSpellView.vue';
 import DataBaseDnDMonster from '../views/DataBase/DataBaseDnDMonsterView.vue';
 import DataBaseDnDItem from '../views/DataBase/DataBaseDnDItemView.vue';
-import DataBaseDnDRace from '../views/dataBase/DataBaseDnDRaceView.vue';
+import DataBaseDnDRaceView from '../views/dataBase/DataBaseDnDRaceViewView.vue';
 import DataBaseDnDSubrace from '../views/dataBase/DataBaseDnDSubraceView.vue';
 import DataBaseDnDClass from '../views/dataBase/DataBaseDnDClassView.vue';
 import DataBaseDnDSubclass from '../views/dataBase/DataBaseDnDSubclassView.vue';
@@ -18,7 +18,7 @@ import DataBaseDnDSubclass from '../views/dataBase/DataBaseDnDSubclassView.vue';
 import DataBaseDnDSpellLiked from '../views/DataBaseLiked/DataBaseDnDLikedSpellView.vue';
 import DataBaseDnDMonsterLiked from '../views/DataBaseLiked/DataBaseDnDLikedMonsterView.vue';
 import DataBaseDnDItemLiked from '../views/DataBaseLiked/DataBaseDnDLikedItemView.vue';
-import DataBaseDnDRaceLiked from '../views/dataBaseLiked/DataBaseDnDLikedRaceView.vue';
+import DataBaseDnDRaceViewLiked from '../views/dataBaseLiked/DataBaseDnDLikedRaceView.vue';
 import DataBaseDnDSubraceLiked from '../views/dataBaseLiked/DataBaseDnDLikedSubraceView.vue';
 import DataBaseDnDClassLiked from '../views/dataBaseLiked/DataBaseDnDLikedClassView.vue';
 import DataBaseDnDSubclassLiked from '../views/dataBaseLiked/DataBaseDnDLikedSubclassView.vue';
@@ -26,7 +26,7 @@ import DataBaseDnDSubclassLiked from '../views/dataBaseLiked/DataBaseDnDLikedSub
 import DataBaseDnDSpellCreated from '../views/DataBaseCreated/DataBaseDnDCreatedSpellView.vue';
 import DataBaseDnDMonsterCreated from '../views/DataBaseCreated/DataBaseDnDCreatedMonsterView.vue';
 import DataBaseDnDItemCreated from '../views/DataBaseCreated/DataBaseDnDCreatedItemView.vue';
-import DataBaseDnDRaceCreated from '../views/dataBaseCreated/DataBaseDnDCreatedRaceView.vue';
+import DataBaseDnDRaceViewCreated from '../views/dataBaseCreated/DataBaseDnDCreatedRaceView.vue';
 import DataBaseDnDSubraceCreated from '../views/dataBaseCreated/DataBaseDnDCreatedSubraceView.vue';
 import DataBaseDnDClassCreated from '../views/dataBaseCreated/DataBaseDnDCreatedClassView.vue';
 import DataBaseDnDSubclassCreated from '../views/dataBaseCreated/DataBaseDnDCreatedSubclassView.vue';
@@ -132,8 +132,8 @@ const routes = [
     },
     {
         path: '/Rasy',
-        name: 'DataBaseDnDRace',
-        component: DataBaseDnDRace
+        name: 'DataBaseDnDRaceView',
+        component: DataBaseDnDRaceView
     },
     {
         path: '/Rasy/:id',
@@ -286,8 +286,8 @@ const routes = [
     },
     {
         path: '/StworzoneRasy',
-        name: 'DataBaseDnDRaceCreated',
-        component: DataBaseDnDRaceCreated,
+        name: 'DataBaseDnDRaceViewCreated',
+        component: DataBaseDnDRaceViewCreated,
         props: true
         
     },
@@ -352,8 +352,8 @@ const routes = [
     },
     {
         path: '/PolubioneRasy',
-        name: 'DataBaseDnDRaceLiked',
-        component: DataBaseDnDRaceLiked,
+        name: 'DataBaseDnDRaceViewLiked',
+        component: DataBaseDnDRaceViewLiked,
         props: true
         
     },
